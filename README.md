@@ -1,1 +1,1 @@
-# visual-search-machine
+# Visual Seach Machine using VLM
