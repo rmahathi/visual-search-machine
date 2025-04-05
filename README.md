@@ -1,1 +1,1 @@
-# Visual Seach Machine using VLM
+# pytorch-paligemma
