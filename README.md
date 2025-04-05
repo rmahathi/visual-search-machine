@@ -99,7 +99,7 @@ Define the text prompt that the model will complete based on the image:
 PROMPT="this building is "
 ```
 
-### ✅ Run Inferency.py
+### **Step 6: Run Inferency.py**
 
 ---
 
