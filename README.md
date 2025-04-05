@@ -56,7 +56,7 @@ This project aims to develop a **Visual Search Engine** using a **custom-built V
 
 ---
 
-## ✅ Steps to Run PaLIGemma Locally
+## ✅ Steps to Run the Model Locally
 
 ### **Step 1: Clone the Repo Locally**
 ```bash
