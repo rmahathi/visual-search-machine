@@ -104,7 +104,7 @@ def _sample_top_p(probs: torch.Tensor, p: float):
 def main(
     model_path: str = r"c:\Users\rmaha\OneDrive\Desktop\paligemma-3b-pt-224",
     prompt: str = "this building is",
-    image_file_path: str = r"c:\Users\rmaha\OneDrive\Desktop\visual-search-machine\pic1.jpeg",
+    image_file_path: str = r"c:\Users\rmaha\OneDrive\Desktop\visual-search-machine\pic1.jpg",
     max_tokens_to_generate: int = 100,
     temperature: float = 0.8,
     top_p: float = 0.9,
