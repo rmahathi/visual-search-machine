@@ -56,6 +56,54 @@ This project aims to develop a **Visual Search Engine** using a **custom-built V
 
 ---
 
+## ✅ Steps to Run PaLIGemma Locally
+
+### **Step 1: Clone the Repo Locally**
+```bash
+git clone https://github.com/google-research/paligemma
+cd paligemma
+```
+
+### **Step 2: Download the Weights**
+Go to [https://huggingface.co/google/paligemma-3b-pt-224/tree/main](https://huggingface.co/google/paligemma-3b-pt-224/tree/main) and download the model files (e.g., `pytorch_model.bin`, `config.json`, etc.).
+
+Save them to a local path, for example:
+```
+C:\Users\rmaha\OneDrive\Desktop\paligemma-3b-pt-224
+```
+
+### **Step 3: Upload Any Image You Want to Use**
+Place your image at a known location. For example:
+```
+C:\Users\rmaha\OneDrive\Desktop\visual-search-machine\pic1.jpeg
+```
+
+### **Step 4: Set the Model Path**
+Update your script or environment with the path to the model directory:
+
+```bash
+MODEL_PATH="C:\Users\rmaha\OneDrive\Desktop\paligemma-3b-pt-224"
+```
+
+### **Step 5: Set the Image Path**
+Update the path to point to the image you want to use:
+
+```bash
+IMAGE_FILE_PATH="C:\Users\rmaha\OneDrive\Desktop\visual-search-machine\pic1.jpeg"
+```
+
+### **Step 6: Set the Prompt**
+Define the text prompt that the model will complete based on the image:
+
+```bash
+PROMPT="this building is "
+```
+
+### ✅ Run Inferency.py
+```
+
+---
+
 ## Approach taken and Why?
 
 To build a **Visual-Language Model (VLM)** that understands both text and images, we use **contrastive learning**—a method that trains the model to pull matching image-text pairs closer while pushing mismatched ones apart. This allows the model to build a **shared semantic space** where similar concepts are aligned, even if they come from different modalities.
