@@ -100,7 +100,6 @@ PROMPT="this building is "
 ```
 
 ### ✅ Run Inferency.py
-```
 
 ---
 
